@@ -1,0 +1,52 @@
+import random
+def betavariate(alpha,beta):
+    return random.betavariate(alpha,beta)
+def choice(seq):
+    return random.choice(seq)
+def randint(a,b):
+    return random.randint(a,b)
+def randomA():
+    return random.random()
+def SystemRandom():
+    return random.SystemRandom()
+def binomialvariate():
+    return random.binomialvariate(1,0.5)
+def choices(population,weights,cum_weights,k):
+    return random.choices(population,weights,cum_weights,k)
+def expovariate(lambd):
+    return random.expovariate(lambd)
+def gammavariate(alpha,beta):
+    return random.gammavariate(alpha,beta)
+def gauss(mu,sigma):
+    return random.gauss(mu,sigma)
+def getrandbits(k):
+    return random.getrandbits(k)
+def getstate():
+    return random.getstate()
+def lognormvariate(mu,sigma):
+    return random.lognormvariate(mu,sigma)
+def normalvariate(mu,sigma):
+    return random.normalvariate(mu,sigma)
+def paretovariate(alpha):
+    return random.paretovariate(alpha)
+def randbytes(n):
+    return random.randbytes(n)
+def randrange(start,stop,step):
+    return random.randrange(start,stop,step)
+def sample(population,k,counts):
+    return random.sample(population,k,counts)
+def seed(a,version):
+    return random.seed(a,version)
+def setstate(state):
+    return random.setstate(state)
+def shuffle(x):
+    return random.shuffle(x)
+def triangular(low,high,mode):
+    return random.triangular(low,high,mode)
+def uniform(a,b):
+    return random.uniform(a,b)
+def vonmisesvariate(mu,kappa):
+    return random.vonmisesvariate(mu,kappa)
+def weibullvariate(alpha,beta):
+    return random.weibullvariate(alpha,beta)
+
