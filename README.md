@@ -1,1 +1,3 @@
-# Pyrandom_to_dll
+# Pyrandom_to_lib
+<br>python(python.org) → Cython(cython.org) → C → lib</br>
+这里使用random库做示例……
